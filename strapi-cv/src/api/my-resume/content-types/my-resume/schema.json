@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "my_resumes",
+  "info": {
+    "singularName": "my-resume",
+    "pluralName": "my-resumes",
+    "displayName": "myResume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "myResume_heading": {
+      "type": "string"
+    },
+    "myResume_desc": {
+      "type": "text"
+    },
+    "myResume_link": {
+      "type": "string"
+    },
+    "aboutMe_heading": {
+      "type": "string"
+    },
+    "aboutMe_desc": {
+      "type": "text"
+    },
+    "aboutMe_link": {
+      "type": "string"
+    },
+    "whatiDo_heading": {
+      "type": "string"
+    },
+    "whatiDo_desc": {
+      "type": "text"
+    },
+    "whatiDo_link": {
+      "type": "string"
+    },
+    "educationBG_heading": {
+      "type": "string"
+    },
+    "educationBG_desc": {
+      "type": "text"
+    },
+    "educationBG_link": {
+      "type": "string"
+    },
+    "contactMe_heading": {
+      "type": "string"
+    },
+    "contactMe_desc": {
+      "type": "text"
+    },
+    "contactMe_link": {
+      "type": "string"
+    },
+    "introductionImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

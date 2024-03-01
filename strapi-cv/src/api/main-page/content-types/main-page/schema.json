@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "main-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "main_desc": {
+      "type": "text"
+    },
+    "main_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tech_desc": {
+      "type": "string"
+    },
+    "tech_skill": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "heading"
+    }
+  }
+}
